@@ -3,6 +3,7 @@ import { WishForm } from "./components/WishForm"
 import { WishList } from "./components/WishList"
 import { Fireworks } from "./components/Fireworks"
 import { Header } from "./components/Header"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [refreshTrigger, setRefreshTrigger] = useState(0)
@@ -33,6 +34,7 @@ export default function App() {
           <p>hope y'all will be happier next year. ❤️</p>
         </footer>
       </div>
+      <Analytics />
     </div>
   )
 }
