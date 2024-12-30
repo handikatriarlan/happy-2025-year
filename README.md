@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Happy 2025 Year - Wish Sharing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Happy New Year 2025 Screenshot](https://ucarecdn.com/e8a6ec4a-a599-41f1-a566-1127ff9d5839/happy2025year.png)
 
-Currently, two official plugins are available:
+A real-time interactive platform where people can share their wishes, dreams, and aspirations for the year 2025. Built with modern web technologies, this application features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Real-time wish updates
+- 🎆 Interactive fireworks animation
+- 🔄 Smooth auto-scrolling wish display
+- 📱 Responsive design for all devices
+- 🎨 Beautiful gradient UI with glass morphism effects
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Supabase
+- Lucide Icons
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Real-time wish submission and display
+- Interactive drag-to-scroll wish carousel
+- Animated fireworks background
+- Responsive modal form for wish submission
+- Beautiful date formatting
+- Automatic error handling and retries
+- Smooth animations and transitions
