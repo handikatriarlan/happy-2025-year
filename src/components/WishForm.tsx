@@ -56,7 +56,6 @@ export function WishForm({ onWishAdded }: { onWishAdded: () => void }) {
               htmlFor="name"
               className="block text-sm font-medium text-white/80 mb-1"
             >
-              Your Name
             </label>
             <input
               id="name"
@@ -74,7 +73,6 @@ export function WishForm({ onWishAdded }: { onWishAdded: () => void }) {
               htmlFor="wish"
               className="block text-sm font-medium text-white/80 mb-1"
             >
-              Your Wish for 2025
             </label>
             <textarea
               id="wish"

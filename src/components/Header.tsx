@@ -11,9 +11,7 @@ export function Header() {
         <Sparkles className="w-6 h-6 md:w-7 md:h-7 text-yellow-400" />
       </div>
       <p className="text-white/80 max-w-2xl mx-auto text-base md:text-lg px-4">
-        Welcome to our vibrant community of dreamers and wishmakers! Share your
-        aspirations, hopes, and dreams for 2025. Together, let's create a
-        tapestry of inspiration that lights up the year ahead. 🌟
+        Share your aspirations, hopes, and dreams for 2025. 🌟
       </p>
     </header>
   )
