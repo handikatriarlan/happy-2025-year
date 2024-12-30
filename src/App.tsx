@@ -20,7 +20,7 @@ export default function App() {
             <h2 className="text-xl md:text-2xl font-semibold text-center mb-6 md:mb-8 bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">
               Our Wishes
             </h2>
-            <WishList refreshTrigger={refreshTrigger} />
+            <WishList key={refreshTrigger} />
           </div>
 
           <div className="text-center">
